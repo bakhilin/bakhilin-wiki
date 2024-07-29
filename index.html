@@ -53,6 +53,23 @@
             font-size: 14px;
             color: #777;
         }
+        @media (max-width: 768px) {
+            .infobox {
+                float: none;
+                width: auto;
+                margin-left: 0;
+                margin-bottom: 20px; /* Отступ снизу для мобильных */
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px; /* Уменьшение размера заголовка на мобильных */
+            }
+            .section h2 {
+                font-size: 18px; /* Уменьшение размера заголовков секций */
+            }
+        }
     </style>
 </head>
 <body>
