@@ -1,117 +1,222 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Профиль - Никита</title>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script>
-        var WebApp = window.Telegram.WebApp;
-    </script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 24px;
-            border-bottom: 2px solid #eaeaea;
-            padding-bottom: 10px;
-        }
-        .infobox {
-            float: right;
-            width: 200px;
-            margin-left: 20px;
-            border: 1px solid #eaeaea;
-            border-radius: 8px;
-            padding: 10px;
-            background-color: #f9f9f9;
-        }
-        .infobox img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .section {
-            margin-top: 20px;
-        }
-        .section h2 {
-            font-size: 20px;
-            margin-top: 0;
-            border-bottom: 1px solid #eaeaea;
-        }
-        .footer {
-            margin-top: 30px;
-            font-size: 14px;
-            color: #777;
-        }
-        @media (max-width: 768px) {
-            .infobox {
-                float: none;
-                width: auto;
-                margin-left: 0;
-                margin-bottom: 20px; /* Отступ снизу для мобильных */
-            }
-        }
+<html lang="en" class="dark"><head>
+	<meta name="generator" content="Hugo 0.113.0">
+  <title>Бахилин Никита</title>
 
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 20px; /* Уменьшение размера заголовка на мобильных */
-            }
-            .section h2 {
-                font-size: 18px; /* Уменьшение размера заголовков секций */
-            }
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="Портфолио" />
+  <meta name="author" content="Бахилин Никита" />
+
+  
+
+
+
+
+<link href="/main.min.1a22dd382da3b0db941fa1eafef828583bb63722c02980ff71defe14ee3b078a.css" rel="stylesheet" />
+
+
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
+
+  <script>
+    const toggleTheme = (el) => {
+      const html = document.querySelector("html");
+      if (el.classList.contains("fa-moon")) {
+        el.classList.remove("fa-moon");
+        el.classList.add("fa-sun");
+        html.classList.add("dark");
+      } else {
+        el.classList.remove("fa-sun");
+        el.classList.add("fa-moon");
+        html.classList.remove("dark");
+      }
+    };
+  </script>
+  
 </head>
-<body>
-
-<div class="container">
-    <h1>Бахилин, Никита Витальевич</h1>
-    
-    <div class="infobox">
-        <img src="img/bakhilin.jpg" alt="Бахилин Никита Витальевич">
-        <h3>Основная информация</h3>
-        <p><strong>Род деятельности:</strong>специалист в области информатики, предприниматель</p>
-    </div>
-
-    <div class="section">
-        <h3>Краткое описание</h3>
-        <p>
-            <b>Никита Витальевич Бахилин</b> (род. <a href="/wiki/10_%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F" title="24 мая">24 мая</a>
-             <a href="/wiki/1984_%D0%B3%D0%BE%D0%B4" title="2004 год">2004</a><sup id="cite_ref-автоссылка1_1-1" class="reference"><a href="#cite_note-автоссылка1-1">[1]</a></sup>, <a href="/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3" title="Санкт-Петербург">Ленинград</a>, <a href="/wiki/%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C" title="Астраханская область">Астраханская область</a>, <a href="/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0" title="Российская Советская Федеративная Социалистическая Республика">РСФСР</a>, <a href="/wiki/%D0%A1%D0%BE%D1%8E%D0%B7_%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D1%85_%D0%A1%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA" title="Союз Советских Социалистических Республик">СССР</a><sup id="cite_ref-автоссылка2_2-1" class="reference"><a href="#cite_note-автоссылка2-2">[2]</a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup>)&nbsp;— <a href="/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F" title="Россия">российский</a> <a href="/wiki/%D0%9F%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D1%8C" 
-            title="Предприниматель">предприниматель</a> и <a href="/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82" title="Программист">программист</a>, имеет гражданство   <a href="/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F" title="Российской Федерации">Российской Федерации</a>, <a href="/wiki/%D0%94%D0%BE%D0%BB%D0%BB%D0%B0%D1%80" title="Доллар">долларовый</a> <a href="/wiki/%D0%9C%D0%B8%D0%BB%D0%BB%D0%B8%D0%B0%D1%80%D0%B4%D0%B5%D1%80" class="mw-redirect" title="Миллиардер">миллиардер</a><sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup>.
-        </p>
-
-    </div>
-
-    <div class="section">
-        <h2>Ранняя жизнь</h2>
-        <p>В 1812 году Российская Империя в лице Бахилина Никиты заключила мирный договор с Французской стороной в лице Бонапарта. Без дальнейшего вторжения в страну.</p>
-    </div>
-
-    <div class="section">
-        <h2>Карьера</h2>
-        <p></p>
-    </div>
-
-    <div class="section">
-        <h2>Личная жизнь</h2>
-        <p>Бахилин придерживается здорового образа жизни, а также пропагандирует отказ от чрезмерного потребления. Он дает интервью раз в несколько лет, но в аккаунте в Instagram иногда выкладывает посты, в которых излагает свои взгляды.</p>
-    </div>
-
-    <div class="footer">
-        <p>Источник информации: Wikipedia.org</p>
-    </div>
+<body
+    class="max-w-screen-md mx-auto prose pb-3 dark:prose-dark bg-gray-100 dark:bg-dark1 duration-250"
+  >
+    <main class="flex sm:flex-row-reverse flex-row flex-wrap">
+<section
+  class="w-full sm:w-2/5 bg-gray-200 dark:bg-dark2 rounded shadow flex flex-col justify-between"
+>
+  <div><header
+  class="flex flex-row items-center mb-2 p-3 bg-gray-300 dark:bg-gray-700 justify-end"
+>
+  <i
+    class="toggle-theme cursor-pointer fas fa-sun text-gray-700 hover:text-gray-500 dark:text-gray-100 dark:hover:text-gray-300"
+    onclick="toggleTheme(this)"
+  ></i>
+</header>
+<div class="mb-4">
+  <h1 class="text-center px-3 m-0">Бахилин Никита</h1>
 </div>
 
-</body>
+    <div class="flex justify-center w-full px-3">
+  <div class="w-4/5">
+    <img
+      class="my-0 rounded-full"
+      src="/images/profile.jpg"
+      alt="Бахилин Никита"
+    />
+  </div>
+</div>
+
+    <div class="flex mb-1 mt-2 justify-center flex-wrap px-3">
+  
+  <a href="https://github.com/bakhilin">
+    <i class="fab fa-github text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i>
+  </a>
+  
+  <a href="#">
+    <i class="ai ai-vk text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i>
+  </a>
+  
+</div>
+
+    <div class="d-flex flex-column mt-2 px-3">
+  <h3>Портфолио</h3>
+  <p class="mb-2 ml-1">Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+    <div class="px-3">
+  <h3>Languages</h3>
+  
+  <p class="ml-1">English (Upper-intermediate B2)</p>
+  
+</div>
+
+    <div class="px-3">
+  <h3>Увлечения</h3>
+  
+  <p class="ml-1">Соревнования</p>
+  
+  <p class="ml-1">Путешествия</p>
+  
+  <p class="ml-1">Волонтерство</p>
+  
+  <p class="ml-1">Рыбалка</p>
+  
+</div>
+
+  </div><footer class="text-center text-sm p-3 border-t border-gray-500 mt-6">
+  <p>Custom copyright message</p>
+  <p>
+    <a href="https://github.com/darshanbaral/sada">sada</a> by
+    <a href="https://www.darshanbaral.com">darshan</a>
+  </p>
+</footer>
+</section>
+
+<section class="w-full sm:w-3/5 px-3">  
+  <div class="mb-8">
+  <h2 class="mt-8 sm:mt-0">
+    <i class="fas fa-briefcase"></i>
+    Опыт
+  </h2>
+
+  
+  <h3 class="mb-1">Frontend React.js</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="https://cosm-lab.science/ru/">Cosm lab</a>
+     &middot; 2023
+  </p>
+  <p class="ml-2 mb-0"></p>
+  
+</div>
+
+  <div class="mb-8">
+  <h2>
+  <i class="fas fa-graduation-cap"></i>
+  Образование
+</h2>
+
+<h3>Бакалавриат</h3>
+  <p class="ml-1 mb-0"><span class="font-semibold">Университет ИТМО</span> &middot; 2022-2026</p>
+  
+  <p class="ml-2 mb-0">
+    Thesis:
+    <a class="text-warning" href="#"
+      ><i>Отсутствует</i></a
+    >
+  </p>
+  
+
+</div>
+
+  <div class="mb-8">
+<h2 class="mt-4">
+    <i class="fas fa-project-diagram"></i> Проекты
+</h2>
+
+<h3 class="mb-1"><a class="text-warning" href="https://github.com/bakhilin/lab7-Server-java">Клиент-серверное приложение JAVA</a></h3>
+<p class="mb-0 ml-1">Демонстрация работы клиент-сервер и выполнение консольных команд</p>
+
+<h3 class="mb-1"><a class="text-warning" href="https://github.com/bakhilin/react-spring">Веб приложение React&#43;Spring</a></h3>
+<p class="mb-0 ml-1">В рамках лабораторной работы по Веб-программированию</p>
+
+<h3 class="mb-1"><a class="text-warning" href="https://clandike.com">Стартап Clandike</a></h3>
+<p class="mb-0 ml-1">Скоро запустится</p>
+
+</div>
+  <h2>
+  <i class="fas fa-cogs"></i>
+  Skills
+</h2>
+
+<p class="mt-2">Python</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 90%;"></div>
+</div>
+
+<p class="mt-2">Java</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 90%;"></div>
+</div>
+
+<p class="mt-2">Linux</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 80%;"></div>
+</div>
+
+<p class="mt-2">bash</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 95%;"></div>
+</div>
+
+<p class="mt-2">postman</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 60%;"></div>
+</div>
+
+<p class="mt-2">docker</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 100%;"></div>
+</div>
+
+<p class="mt-2">GIT</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 80%;"></div>
+</div>
+
+<p class="mt-2">SQL</p>
+<div class="w-full border border-gray-500 dark:border-gray-300 mt-1 rounded h-5">
+  <div class="bg-blue-500 dark:bg-yellow-500 h-full" style="width: 70%;"></div>
+</div>
+
+
+</section>
+
+    </main>
+  </body>
 </html>
